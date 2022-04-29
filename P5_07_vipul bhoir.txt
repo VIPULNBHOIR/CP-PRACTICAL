@@ -1,0 +1,21 @@
+INPUT CODE:-
+
+#include <stdio.h>
+    int a=5;
+    int b=2;
+void add()
+{
+    int sum;
+    sum = a+b;
+    printf("The sum of a & b is %d",sum);
+}
+
+int main()
+{
+add();
+ return 0;
+}
+
+OUTPUT:-
+
+The sum of a & b is 7
