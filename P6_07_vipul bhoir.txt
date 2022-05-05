@@ -1,0 +1,27 @@
+INPUT CODE:
+
+#include <stdio.h>
+
+int main()
+{
+int a,b,c,sum;
+printf("Enter the value of a & b\n");
+scanf("%d%d",&a,&b);
+sum=a+b;
+if(sum>20)
+printf("the sum of a & b is greater than 20");
+else if (sum>10)
+printf("the sum of a & b is greater than 10 but less than 20");
+else
+printf("the sum of a & b is less than 10");
+
+
+    return 0;
+}
+
+OUTPUT:
+
+Enter the value of a & b
+4
+25
+the sum of a & b is greater than 20
