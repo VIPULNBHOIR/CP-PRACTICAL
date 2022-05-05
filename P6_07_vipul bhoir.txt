@@ -1,4 +1,4 @@
-INPUT CODE:
+\\INPUT CODE:
 
 #include <stdio.h>
 
@@ -25,3 +25,13 @@ Enter the value of a & b
 4
 25
 the sum of a & b is greater than 20
+
+Enter the value of a & b
+2 
+9
+the sum of a & b is greater than 10 but less than 20
+
+Enter the value of a & b
+5
+4
+the sum of a & b is less than 10
