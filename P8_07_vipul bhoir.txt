@@ -1,0 +1,41 @@
+INPUT CODE :
+
+// check the no. in the range of 0 to 39 //
+#include <stdio.h>
+
+int main() {
+    int y,x;
+    printf("Enter the no. between 0 to 39 :");
+    scanf("%d",&y);
+    x=y/10;
+    switch(x)
+    {
+    case 0 :
+    printf("you have enter the no. in the range of 0 to 9");
+    break;
+    
+    case 1 :
+    printf("you have enter the no. in the range of 10 to 19");
+    break;
+    
+    case 2 :
+    printf("you have enter the no. in the range of 20 to 29");
+    break;
+    
+    case 3:
+    printf("you have enter the no. in the range of 30 to 39");
+    break;
+    default :
+    printf("no. is not in range");
+    break;
+    }
+    return 0;
+}
+
+OUTPUT CODE:
+
+Enter the no. between 0 to 39 :457
+no. is not in range
+
+Enter the no. between 0 to 39 :36
+you have enter the no. in the range of 30 to 39
