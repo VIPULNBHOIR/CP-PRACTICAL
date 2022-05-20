@@ -1,0 +1,25 @@
+CODE:
+
+// Analysis Increament & Decreament
+#include <stdio.h>
+int main() {
+int a,b;
+float c;
+a=5;b=2;
+c=a+b;
+printf("the sum of %d & %d is %f\n",a,b,c);
+c=a*b;
+printf("the Multiplication of %d & %d is %f\n",a,b,c); 
+c=a/b;
+printf("Integer division of %d & %d is %f\n",a,b,c); 
+c=(float)a/b;
+printf("Real division of %d & %d is %f\n",a,b,c);
+
+return 0;
+}
+
+OUTPUT:
+The sum of 5 & 2 is 7.000000
+The Multiplication of 5 & 2 is 10.000000
+Integer division of 5 & 2 is 2.000000
+Real division of 5 & 2 is 2.500000
