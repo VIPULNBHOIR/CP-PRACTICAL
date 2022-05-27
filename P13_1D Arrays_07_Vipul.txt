@@ -1,0 +1,15 @@
+INPUT:
+
+#include <stdio.h>
+
+int main() {
+ int sum,star[3]={4,5,6};
+ sum=star[0] +star[1] +star[2];
+ printf(" The of the number in arrays is %d",sum);
+    
+    return 0;
+}
+
+OUTPUT:
+
+The of the number in arrays is 15
