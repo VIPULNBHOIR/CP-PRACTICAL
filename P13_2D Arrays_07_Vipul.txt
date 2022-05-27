@@ -1,0 +1,57 @@
+INPUT:
+
+// program to get sum of each integer in array
+#include <stdio.h>
+int main() {
+ int a[3][4],b[3][4];
+ int i,j;
+ printf("enter the elements of matrix a:\n");
+ for(i=0;i<3;i++)
+{ for(j=0;j<4;j++)
+scanf("%d",&a[i][j]);
+}
+printf("enter the elements of matrix b:\n");
+ for(i=0;i<3;i++)
+{ for(j=0;j<4;j++)
+scanf("%d",&b[i][j]);
+}
+printf("the sum of matrix a and matrix b is:\n"); 
+ for(i=0;i<3;i++)
+{ for(j=0;j<4;j++)
+printf("%3d",(a[i][j]+b[i][j]));
+printf("\n");
+} 
+    return 0;
+}
+
+OUTPUT:
+Enter the elements of 3X4 array num1
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+Enter the elements of 3X4 array num2
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+The 3X4 array num1 is
+2  4  6  8 
+10 12 14 16  
+18 20 22 24 
