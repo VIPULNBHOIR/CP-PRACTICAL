@@ -1,0 +1,18 @@
+INPUT:
+
+// program to to write an string
+#include <stdio.h>
+int main()
+{
+    char strname[30];
+    printf("Enter the string:\n");
+    scanf("%[^\n]s",strname);
+    printf("The string is: %s\n",strname);
+    return 0;
+}
+
+OUTPUT:
+
+Enter the string:
+Megha mam is good teacher.
+The string is: Megha mam is good teacher.
