@@ -21,4 +21,4 @@ int main()
 
 
 OUTPUT:
-Cube of 5 is 625
+Cube of 8 is 512
